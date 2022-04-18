@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">MyPortfolio</string>
+
+    <string name="projects">Projects</string>
+    <string name="skills">Skills</string>
+    <string name="work_experience">Work Experience</string>
+    <string name="github">Github</string>
+    <string name="linkedin">LinkedIn</string>
+    <string name="education">Education</string>
+
+    <string name="project_1">Routine Management System Details</string>
+    <string name="project_2">Note App Details</string>
+    <string name="project_3">face mask details</string>
+    <string name="project_4">Smart Pharmacy App Details</string>
+    <string name="project_5">Travelling App details</string>
+    <string name="project_6">Poetry app using rest api details</string>
+    <string name="project_7">Portfolio Details</string>
+    <string name="project_8"><![CDATA[Dog & Cat Prediction Using tfLite - Java]]></string>
+</resources>

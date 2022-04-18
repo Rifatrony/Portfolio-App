@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.EducationActivity"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Education:"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:textSize="22sp"
+            android:gravity="center_vertical"
+            android:textColor="#1D5EC3"
+            android:textStyle="bold"
+            />
+        <View
+            android:layout_width="105dp"
+            android:layout_height="2dp"
+            android:background="#1D5EC3"
+            android:layout_marginLeft="15dp"
+            />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="15dp"
+            app:cardBackgroundColor="@color/all_card_background_linear_layout_color"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                >
+
+                <LinearLayout
+                    android:layout_width="112dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2018 - 2022"
+                        android:paddingLeft="10dp"
+                        android:textColor="@color/black"
+                        android:lineHeight="27dp"
+                        android:textSize="18sp"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_toStartOf="@+id/timeId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="7dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="International University of Business Agriculture and Technology - IUBAT"
+                        android:textColor="@color/black"
+                        android:lineHeight="23dp"
+                        android:textStyle="bold"
+                        android:textSize="16sp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="BSc in Computer Science and Engineering"
+                        android:textColor="@color/black"
+                        android:lineHeight="25dp"
+                        android:layout_marginTop="7dp"
+                        android:textSize="15sp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="CGPA: 3.67 out of 4"
+                        android:textColor="@color/black"
+                        android:lineHeight="25dp"
+                        android:layout_marginTop="7dp"
+                        android:textSize="15sp"
+                        />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Thesis: "
+                            android:textStyle="bold"
+                            android:textColor="@color/black"
+                            android:lineHeight="25dp"
+                            android:layout_marginTop="7dp"
+                            android:textSize="15sp"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Human Face Mask Detection using Deep Learning"
+                            android:textColor="@color/black"
+                            android:lineHeight="25dp"
+                            android:layout_marginTop="7dp"
+                            android:textSize="15sp"
+                            />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="15dp"
+            app:cardBackgroundColor="@color/all_card_background_linear_layout_color"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                >
+
+                <LinearLayout
+                    android:layout_width="112dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2015 - 2017"
+                        android:paddingLeft="10dp"
+                        android:textColor="@color/black"
+                        android:lineHeight="27dp"
+                        android:textSize="18sp"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_toStartOf="@+id/timeId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="7dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="M.E.H Arif College"
+                        android:textColor="@color/black"
+                        android:lineHeight="23dp"
+                        android:textStyle="bold"
+                        android:textSize="16sp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Higher Secondary School Certificate"
+                        android:textColor="@color/black"
+                        android:lineHeight="25dp"
+                        android:layout_marginTop="7dp"
+                        android:textSize="15sp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="GPA: 4.83 out of 5"
+                        android:textColor="@color/black"
+                        android:lineHeight="25dp"
+                        android:layout_marginTop="7dp"
+                        android:textSize="15sp"
+                        />
+
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="15dp"
+            app:cardBackgroundColor="@color/all_card_background_linear_layout_color"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                >
+
+                <LinearLayout
+                    android:layout_width="112dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal"
+                    >
+
+                    <TextView
+                        android:id="@+id/timeId"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2010 - 2015"
+                        android:paddingLeft="10dp"
+                        android:textColor="@color/black"
+                        android:lineHeight="27dp"
+                        android:textSize="18sp"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_toStartOf="@+id/timeId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="7dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Mazukhan High School"
+                        android:textColor="@color/black"
+                        android:lineHeight="23dp"
+                        android:textStyle="bold"
+                        android:textSize="16sp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Secondary School Certificate"
+                        android:textColor="@color/black"
+                        android:lineHeight="25dp"
+                        android:layout_marginTop="7dp"
+                        android:textSize="15sp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="GPA: 5 out of 5"
+                        android:textColor="@color/black"
+                        android:lineHeight="25dp"
+                        android:layout_marginTop="7dp"
+                        android:textSize="15sp"
+                        />
+
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</ScrollView>
